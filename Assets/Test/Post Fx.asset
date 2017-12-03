@@ -482,7 +482,7 @@ MonoBehaviour:
     value: 2
   color:
     overrideState: 1
-    value: {r: 3.556, g: 1.359647, b: 1.359647, a: 1}
+    value: {r: 1.0491765, g: 1.9725631, b: 2.744, a: 1}
   debug:
     overrideState: 0
     value: 1
