@@ -22,7 +22,7 @@
             half4 Fragment(v2f_img input) : SV_Target
             {
                 half4 s = tex2D(_MainTex, input.uv);
-                return s * 0.93;
+                return s * 0.95;
             }
 
             ENDCG

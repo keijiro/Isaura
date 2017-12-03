@@ -37,11 +37,11 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Start: 0
-    m_ClipIn: 0
+    m_ClipIn: 30.45
     m_Asset: {fileID: 114490049008234062}
     m_UnderlyingAsset: {fileID: 7400000, guid: 47c2c7825d9441341b73e9202274c7e2, type: 3}
-    m_Duration: 38.333333333333336
-    m_TimeScale: 1
+    m_Duration: 5.642857142857143
+    m_TimeScale: 0.7
     m_ParentTrack: {fileID: 114220930631685852}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
@@ -117,7 +117,7 @@ MonoBehaviour:
   m_Name: AnimationPlayableAsset of 135_02
   m_EditorClassIdentifier: 
   m_Clip: {fileID: 7400000, guid: 47c2c7825d9441341b73e9202274c7e2, type: 3}
-  m_Position: {x: 0, y: 0, z: 0}
+  m_Position: {x: -0.07, y: 0, z: 1.35}
   m_Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
   m_UseTrackMatchFields: 0
   m_MatchTargetFields: 63
