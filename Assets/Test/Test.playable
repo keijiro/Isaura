@@ -41,7 +41,7 @@ MonoBehaviour:
     m_ClipIn: 0
     m_Asset: {fileID: 114768719981843464}
     m_UnderlyingAsset: {fileID: 114768719981843464}
-    m_Duration: 5.642857142856
+    m_Duration: 5.5
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114195999864179710}
     m_EaseInDuration: 0
@@ -117,7 +117,7 @@ MonoBehaviour:
     m_ClipIn: 30.45
     m_Asset: {fileID: 114490049008234062}
     m_UnderlyingAsset: {fileID: 7400000, guid: 47c2c7825d9441341b73e9202274c7e2, type: 3}
-    m_Duration: 5.642857142857143
+    m_Duration: 5.5
     m_TimeScale: 0.7
     m_ParentTrack: {fileID: 114220930631685852}
     m_EaseInDuration: 0
