@@ -5,15 +5,15 @@ RenderTexture:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Mark
+  m_Name: Aura
   m_ImageContentsHash:
     serializedVersion: 2
     Hash: 00000000000000000000000000000000
   m_Width: 1920
   m_Height: 1080
   m_AntiAliasing: 1
-  m_DepthFormat: 2
-  m_ColorFormat: 15
+  m_DepthFormat: 0
+  m_ColorFormat: 16
   m_MipMap: 0
   m_GenerateMips: 1
   m_SRGB: 0

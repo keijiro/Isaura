@@ -1,5 +1,9 @@
-﻿Shader "Isaura/Marker"
+Shader "Isaura/Aura (Sprite)"
 {
+    Properties
+    {
+        _Exponent("Exponent", Range(0.01, 10)) = 1
+    }
     SubShader
     {
         Pass
@@ -13,19 +17,22 @@
 
             #include "UnityCG.cginc"
 
-            half Vertex(
+            half _Exponent;
+
+            half2 Vertex(
                 float4 position : POSITION,
-                half3 normal : NORMAL,
+                half2 texcoord : TEXCOORD,
                 out float4 sv_position : SV_Position
-            ) : COLOR
+            ) : TEXCOORD
             {
                 sv_position = UnityObjectToClipPos(position);
-                return mul(UNITY_MATRIX_V, mul(unity_ObjectToWorld, normal)).z;
+                return texcoord;
             }
 
-            half4 Fragment(half color : COLOR) : SV_Target
+            half4 Fragment(half2 texcoord : TEXCOORD) : SV_Target
             {
-                return color;
+                half l = length(texcoord.xyxy - 0.5) * 2;
+                return pow(saturate(1 - l), _Exponent);
             }
 
             ENDCG
