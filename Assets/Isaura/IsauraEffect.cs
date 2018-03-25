@@ -10,7 +10,7 @@ namespace Isaura
         public TextureParameter buffer = new TextureParameter();
         public FloatParameter threshold = new FloatParameter { value = 0.5f };
         public FloatParameter thickness = new FloatParameter { value = 1 };
-        [ColorUsage(false, true, 0, 8, 0.125f, 3)]
+        [ColorUsage(false, true)]
         public ColorParameter color = new ColorParameter { value = Color.white };
         public BoolParameter debug = new BoolParameter();
     }
